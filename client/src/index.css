@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ankasa {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #414141;
+}
+
+.ankasa-icon {
+  margin-right: 20px;
+}
+
+.form-container {
+  margin-left: 8%;
+  margin-top: 20px;
+  width: 28%;
+}
+
+.form {
+  margin-top: 20vh;
+}
+
+.form-type {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #000000;
+}
+
+.input-border {
+  padding-bottom: 7px;
+  border-bottom: 2px rgba(210, 194, 255, 0.68) solid;
+}
+
+.input {
+  border: none;
+  outline: none;
+  padding: 0 0 5px 5px;
+  margin-top: 6%;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(35, 149, 255);
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  background: #2395ff;
+  box-shadow: 0px 8px 10px rgba(35, 149, 255, 0.3);
+  border-radius: 10px;
+  border: none;
+  padding: 4% 0 4% 0;
+  margin-top: 10%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.terms {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #595959;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* On cursor over */
+.terms:hover .checkbox ~ .checkmark {
+  background-color: #eeeeee;
+}
+
+.terms .checkbox:checked ~ .checkmark {
+  background-image: url("./images/big-check-mark.svg");
+}
+
+.checkmark:after {
+  position: absolute;
+  display: none;
+}
+
+.container .checkbox:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.terms .checkbox {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  border: 2px solid #2395ff;
+  box-sizing: border-box;
+  border-radius: 3px;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  margin-top: 50%;
+}
+
+.line {
+  border-top: 1px solid #d8d8d8;
+  width: 85%;
+  margin-top: 11%;
+}
+
+.line-content {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #4d4d4d;
+
+  margin-top: 5%;
+}
+
+.signin-button {
+  width: 100%;
+  border: 1.5px solid #2395ff;
+  background: transparent;
+  border-radius: 10px;
+  padding: 4% 0 4% 0;
+  margin-top: 5%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #2395ff;
+}
+
+.forgot {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #595959;
+  margin-top: 5%;
+}
+
+.forgot-link {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration-line: underline;
+  text-align: center;
+  color: #2395ff;
+}
+
+.forgot-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.third-login {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.google {
+  height: 70px;
+  width: 70px;
+  border: 1.5px solid #2395ff;
+  background: transparent;
+  border-radius: 10px;
+  border-width: 100%;
+  padding: 10px 20px 10px 20px;
+}
+
+.facebook {
+    height: 70px;
+    width: 70px;
+    border: 1.5px solid #2395ff;
+    background: transparent;
+    border-radius: 10px;
+    border-width: 100%;
+    padding: 10px 20px 10px 20px;
+}
