@@ -304,6 +304,75 @@
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 24px;
   color: #ffffff;
+}
+
+.ankasa-desc {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #6b6b6b;
+}
+
+.reserved {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #6b6b6b;
+  padding-top: 50%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10%;
+}
+
+.footer1-containter {
+  display: flex;
+  flex-direction: row;
+}
+
+.feature {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.features {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #6b6b6b;
+}
+
+.footer2-item {
+  padding-top: 30%;
+}
+
+.footer3-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100%;
+}
+
+.location-detail {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #6b6b6b;
 }

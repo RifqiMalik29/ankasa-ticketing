@@ -5,6 +5,7 @@ import Auth from './Pages/Auth/Auth';
 import Home from './Pages/Home/Home';
 
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
                 <Route path="/auth" exact component={Auth} />
                 <Route path="/" exact component={Home} />
             </Switch>
+            <Footer />
         </BrowserRouter>
     )
 }
