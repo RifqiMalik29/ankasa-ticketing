@@ -11,7 +11,7 @@ import MapPin from '../images/map-pin.svg';
 
 const Footer = () => {
     return (
-        <div>
+        <div className="footer">
             <div className="container footer-container">
                 <div className="footer1-container">
                     <div className="footer1-item">

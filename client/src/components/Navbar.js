@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import { Link } from 'react-router-dom';
+
 import AnkasaLogo from '../images/ankasa-blue.svg';
 import SearchLogo from '../images/search.svg';
 import ActiveBar from '../images/active-bar.svg';
@@ -9,7 +11,7 @@ const Navbar = () => {
     const [isActive, setIsactive] = useState(true);
 
     return (
-        <div className="">
+        <div className="navbar">
             <div className="navbar-container container">
                 <div className="">
                     <p className="ankasa"><img src={AnkasaLogo} alt="Ankasa Logo" className="ankasa-icon" />Ankasa</p>
@@ -32,7 +34,7 @@ const Navbar = () => {
                 </div>
                 {
                     isSignup ? (
-                        <button type="button" className="navbar-signup">Sign up</button>
+                        <Link to="/auth" className="navbar-signup">Sign up</Link>
                     ) : (
                         <p>User Profile</p>
                     )

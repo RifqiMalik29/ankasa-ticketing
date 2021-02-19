@@ -221,6 +221,10 @@
   padding: 10px 20px 10px 20px;
 }
 
+.navbar {
+  background-color: #fff;
+}
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -305,6 +309,7 @@
   font-weight: bold;
   font-size: 16px;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .ankasa-desc {
@@ -322,6 +327,10 @@
   font-size: 16px;
   color: #6b6b6b;
   padding-top: 50%;
+}
+
+.footer {
+  background-color: #fff;
 }
 
 .footer-container {
@@ -375,4 +384,325 @@
   font-weight: normal;
   font-size: 16px;
   color: #6b6b6b;
+}
+
+.blue-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.home-blue {
+  padding: 10px 13% 10px 13%;
+  display: flex;
+  align-items: center;
+}
+
+.destination {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.date {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+}
+
+.blue-bg {
+  background: #2395ff url("./images/ankasa-home.svg") no-repeat;
+  border-radius: 0px 0px 30px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+
+  margin-right: 10%;
+}
+
+.filter-text {
+  display: flex;
+  align-items: center;
+}
+
+.filter-container {
+  width: 30%;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 4% 0 4% 0;
+}
+
+.home {
+  background-color: #f5f6fa;
+}
+
+.home-bold {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.ticket-container {
+  width: 70%;
+}
+
+.reset {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #2395ff;
+}
+
+.ticket {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #aeafb0;
+}
+
+.sortBy {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+
+.filter-box {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 5%;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+}
+
+.filter-type {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+}
+/* filter-checkbox */
+.filter-checkbox {
+  border: 2px solid #979797;
+  border-radius: 3px;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5%;
+}
+
+.filter-checkbox-active {
+  border: 2px solid #979797;
+  border-radius: 3px;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5%;
+  background-image: url("./images/big-check-mark.svg");
+}
+
+.filter-checkbox:hover {
+  background-color: #d1d3d4;
+}
+
+.filter-border {
+  border: 1px solid #e5e5e5;
+  margin-bottom: 5%;
+}
+
+.ticket-bg {
+  background: #ffffff;
+  border-radius: 15px;
+  margin-left: 2%;
+}
+
+.ticket-text {
+  display: flex;
+}
+
+.airlines-name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #595959;
+}
+
+.initialName {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+
+  margin-top: 20px;
+}
+
+.airline-time {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #6b6b6b;
+}
+
+.time-length {
+  display: inline;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #595959;
+}
+
+.ticket-price {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2395ff;
+}
+
+.select-ticket {
+  background: #2395ff;
+  box-shadow: 0px 8px 10px rgba(35, 149, 255, 0.3);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  text-decoration: none;
+
+  padding: 1.5% 6% 1.5% 6%;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.select-ticket:hover {
+  text-decoration: none;
+}
+
+.details {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2395ff;
+}
+
+.flight-details {
+  display: flex;
+  width: 80%;
+  padding: 3% 0 3% 0;
+}
+
+.contact-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.ticket-detail {
+  width: 35%;
+}
+
+.left-arrow {
+  width: 20px;
+  height: 20px;
+}
+
+.back-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.user-detail {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+
+  border: none;
+}
+
+.user-detail:focus {
+  border: none;
+  outline: none;
+}
+
+.label {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9b96ab;
+}
+
+.user-form {
+  margin-bottom: 2%;
+  border-bottom: 2px solid rgba(210, 194, 255, 0.68);
+}
+
+.detail-bg {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 55%;
+}
+
+.select-region {
+  border: none;
+}
+
+.phone-border {
+  border-left: 2px solid rgba(210, 194, 255, 0.68);
+  margin-left: 4%;
+  padding-left: 4%;
 }

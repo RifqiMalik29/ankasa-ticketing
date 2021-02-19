@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 
 const userSchema = mongoose.Schema({
-    username: { type: String, require },
-    email: { type: String, require },
-    password: { type: String, require },
-    phone: { type: String, require },
+    username: { type: String, required: true },
+    email: { type: String, required: true },
+    password: { type: String, required: true },
+    phone: { type: String, required: true },
     selectedFile: String,
     location: [String],
     cards: [String],
